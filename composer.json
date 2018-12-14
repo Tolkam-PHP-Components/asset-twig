@@ -1,0 +1,23 @@
+{
+    "name": "tolkam/asset-twig",
+    "description": "Twig integration for asset package",
+    "type": "library",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Tolkam\\Asset\\Twig\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "tolkam/asset": "*",
+        "twig/twig": "^2.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
