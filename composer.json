@@ -12,8 +12,8 @@
     },
     "require": {
         "php": ">=7.2",
-        "tolkam/asset": "*",
-        "twig/twig": "^2.5"
+        "tolkam/asset": "^1.0@dev",
+        "twig/twig": "^3.0"
     },
     "extra": {
         "branch-alias": {
